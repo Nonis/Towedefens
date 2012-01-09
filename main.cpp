@@ -3,6 +3,13 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <SFML/Graphics.hpp>
+#include "Enemy.h"
+#include "Tower.h"
+#include "Map.h"
+
+////////////////////////////////////////////////////////////
+// Define
+////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////
@@ -14,7 +21,7 @@
 int main()
 {
     // Create main window
-    sf::RenderWindow App(sf::VideoMode(640, 480), "SFML Graphics");
+    sf::RenderWindow App(sf::VideoMode(640, 480), "Towerdefence");
 
     // Start game loop
     while (App.IsOpened())
@@ -32,7 +39,7 @@ int main()
         App.Clear();
 
         // Draw apredefined shape
-
+        
         // Finally, display the rendered frame on screen
         App.Display();
     }

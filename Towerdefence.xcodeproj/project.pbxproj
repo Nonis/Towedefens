@@ -16,6 +16,7 @@
 		A01FB6D00F07CFF2000AAC7B /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
 		D8AE4C9314BA721700145FFA /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9214BA721700145FFA /* Enemy.cpp */; };
 		D8AE4C9714BA754300145FFA /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9614BA754300145FFA /* Tower.cpp */; };
+		D8AE4C9914BA768100145FFA /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9814BA768100145FFA /* Map.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		D8AE4C9414BA752800145FFA /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		D8AE4C9514BA753300145FFA /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
 		D8AE4C9614BA754300145FFA /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
+		D8AE4C9814BA768100145FFA /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		D8AE4C9A14BA769400145FFA /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				D8AE4C9414BA752800145FFA /* Enemy.h */,
 				D8AE4C9514BA753300145FFA /* Tower.h */,
 				D8AE4C9614BA754300145FFA /* Tower.cpp */,
+				D8AE4C9814BA768100145FFA /* Map.cpp */,
+				D8AE4C9A14BA769400145FFA /* Map.h */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				A01FB6C90F07CFCE000AAC7B /* main.cpp in Sources */,
 				D8AE4C9314BA721700145FFA /* Enemy.cpp in Sources */,
 				D8AE4C9714BA754300145FFA /* Tower.cpp in Sources */,
+				D8AE4C9914BA768100145FFA /* Map.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
