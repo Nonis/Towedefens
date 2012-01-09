@@ -5,5 +5,24 @@
 //  Created by Christian Pettersson on 2012-01-09.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
-
+////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
 #include <iostream>
+#include <SFML/Graphics.hpp>
+using namespace std;
+////////////////////////////////////////////////////////////
+// Define
+////////////////////////////////////////////////////////////
+#define square 16
+
+class Tower
+{    
+public:
+    int range;
+    int damage;
+    int level;
+    int price;
+    sf::Sprite sprite;
+    
+};

@@ -9,6 +9,15 @@
 #ifndef Towerdefence_Tower_h
 #define Towerdefence_Tower_h
 
+class Tower
+{    
+public:
+    int range;
+    int damage;
+    int level;
+    int price;
+    sf::Sprite sprite;
+};
 
 
 #endif

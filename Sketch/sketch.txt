@@ -1,0 +1,38 @@
+Tower defence
+#define square 16
+
+
+Tower:
+int range * square(=16px)
+int damage
+int level 1-3
+int price
+sf::Sprite subrect of spritesheet.png
+
+bool target_in_range(enemy*)
+void shot_target(enemy*)
+	Yellow:	
+		Good at:
+			Green and Orange
+	Blue:
+		Good at:
+			Green and Purple
+	Red:
+		Good at:
+			Orange and Purple
+
+
+Enemy:
+int healt
+int speed
+int profit
+bool visible
+sf::Sprite subrect of spritesheet.png
+	Orange:
+	Green:
+	Purple:
+
+
+Map:
+16*16 square 16*16px
+enemypath/start/end
