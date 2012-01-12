@@ -5,6 +5,7 @@
 #include "Enemy.h"
 #include "Tower.h"
 #include "Map.h"
+#include "Functions.h"
 using namespace std;
 
 ////////////////////////////////////////////////////////////

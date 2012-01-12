@@ -16,7 +16,14 @@ public:
     int damage;
     int level;
     int price;
+    int reloadtime;
     sf::Sprite sprite;
+    
+    
+    bool target_in_range(Enemy *target);
+    void attack(Enemy *target);
+    
+    
 };
 
 

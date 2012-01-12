@@ -7,3 +7,17 @@
 //
 
 #include <iostream>
+#include <SFML/Graphics.hpp>
+#include "Functions.h"
+
+#define square 16
+
+
+class Enemy
+{    
+public:
+    int speed;
+    int hp;
+    sf::Sprite sprite;
+    
+};
