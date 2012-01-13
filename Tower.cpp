@@ -26,14 +26,15 @@ public:
     int range; // range * square
     int damage;
     int level; 
-    int price;
+    int price; //set the price of the tower
     int reloadtime; // how long between attacks
     int sprite_nr; //defines subrect sprite
     sf::Sprite sprite; // sprite
-    // set subrect Class_name.sprite.SetSubRect(sprite_select(sprite_nr))
+    
+    //to set subrect Class_name.sprite.SetSubRect(sprite_select(sprite_nr))
     
     
-    bool target_in_range(Enemy *target); // checks if targets is in range
+    virtual bool target_in_range(Enemy *target); // checks if targets is in range
     
     void attack(Enemy *target);// attack target
     

@@ -9,6 +9,14 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
+//Loads the SpriteSheet.png in to a sf::Image
+void load_sprite_sheet(){
+    sf::Image spritesheet;
+    spritesheet.LoadFromFile("SpriteSheet.png");
+    spritesheet.CreateMaskFromColor(sf::Color(255,0,255));
+}
+
+//function that sets the returns a IntRect for the subrect on the sf::sprite
 sf::IntRect sprite_select(int sprite_nr){
     int row = (sprite_nr / 16);
     int col = (sprite_nr%16)*16;  
@@ -22,3 +30,4 @@ sf::IntRect sprite_select(int sprite_nr){
     return sprite_rect ;
 
 }
+
