@@ -15,7 +15,8 @@
 		A01FB6CF0F07CFF2000AAC7B /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
 		A01FB6D00F07CFF2000AAC7B /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
 		D882C03C14BE90430024DDD9 /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D882C03B14BE90430024DDD9 /* Functions.cpp */; };
-		D882C04014BFCD2F0024DDD9 /* SpriteSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = D882C03F14BFCD2F0024DDD9 /* SpriteSheet.png */; };
+		D88F8E3114C1ED590006A28D /* SpriteSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F8E3014C1ED590006A28D /* SpriteSheet.png */; };
+		D88F8E3314C1EE350006A28D /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = D88F8E3214C1EE350006A28D /* ss2.png */; };
 		D8AE4C9314BA721700145FFA /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9214BA721700145FFA /* Enemy.cpp */; };
 		D8AE4C9714BA754300145FFA /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9614BA754300145FFA /* Tower.cpp */; };
 		D8AE4C9914BA768100145FFA /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8AE4C9814BA768100145FFA /* Map.cpp */; };
@@ -47,7 +48,8 @@
 		A01FB6CD0F07CFF2000AAC7B /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = /Library/Frameworks/SFML.framework; sourceTree = "<absolute>"; };
 		D882C03B14BE90430024DDD9 /* Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
 		D882C03E14BE90500024DDD9 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
-		D882C03F14BFCD2F0024DDD9 /* SpriteSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpriteSheet.png; path = Media/SpriteSheet.png; sourceTree = "<group>"; };
+		D88F8E3014C1ED590006A28D /* SpriteSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpriteSheet.png; path = Media/SpriteSheet.png; sourceTree = "<group>"; };
+		D88F8E3214C1EE350006A28D /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss2.png; path = Media/ss2.png; sourceTree = "<group>"; };
 		D8AE4C9214BA721700145FFA /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
 		D8AE4C9414BA752800145FFA /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		D8AE4C9514BA753300145FFA /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
@@ -110,7 +112,8 @@
 		A01FB6B20F07CF80000AAC7B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D882C03F14BFCD2F0024DDD9 /* SpriteSheet.png */,
+				D88F8E3214C1EE350006A28D /* ss2.png */,
+				D88F8E3014C1ED590006A28D /* SpriteSheet.png */,
 				A01FB6C80F07CFCE000AAC7B /* main.cpp */,
 				D8AE4C9214BA721700145FFA /* Enemy.cpp */,
 				D882C03B14BE90430024DDD9 /* Functions.cpp */,
@@ -175,7 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D882C04014BFCD2F0024DDD9 /* SpriteSheet.png in Resources */,
+				D88F8E3114C1ED590006A28D /* SpriteSheet.png in Resources */,
+				D88F8E3314C1EE350006A28D /* ss2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

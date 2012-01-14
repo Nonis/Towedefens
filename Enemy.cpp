@@ -10,8 +10,7 @@
 #include <SFML/Graphics.hpp>
 #include "Functions.h"
 
-#define square 16
-
+#define square 32
 
 class Enemy
 {    
