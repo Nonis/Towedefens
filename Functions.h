@@ -9,6 +9,8 @@
 #ifndef Towerdefence_Functions_h
 #define Towerdefence_Functions_h
 
+
+
 //function that sets the returns a IntRect for the subrect on the sf::sprite
 sf::IntRect sprite_select(int sprite_nr);
 

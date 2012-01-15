@@ -14,7 +14,6 @@ class Tower
 public:
     //constructor
     Tower (int in_range,int in_damage, int in_level, int in_price, int in_reloadtime, int in_sprite_nr);
-    Tower();
     //Tower(range, damage, level, price, reloadtime, spritenumber) 
 
 
@@ -27,10 +26,11 @@ public:
     int price; //set the price of the tower
     int reloadtime; // how long between attacks
     int sprite_nr; //defines subrect sprite
-    sf::Image spritesheet;
     sf::Sprite sprite; // sprite
-    sf::Clock reload_clock; // use to count seconds between attacks
-    //to set subrect Class_name.sprite.SetSubRect(sprite_select(sprite_nr))
+    sf::Image spritesheet;
+    sf::Clock reload_clock;
+    // use to count seconds between attacks
+ 
     
     virtual bool target_in_range(Enemy *target);
     void attack(Enemy *target);

@@ -14,7 +14,17 @@ class Enemy
 public:
     int speed;
     int hp;
+    int reward;
+    int sprite_nr;
+    bool dead;
     sf::Sprite sprite;
+    sf::Image spritesheet;
+    
+    //constructor
+    Enemy (int in_speed,int in_hp, int in_reward, int in_sprite_nr);
+    //Enemy(speed, hp, spritenumber) 
+    //destructor
+    ~Enemy(){};
     
 };
 

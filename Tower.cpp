@@ -20,13 +20,13 @@ using namespace std;
 ////////////////////////////////////////////////////////////
 #define square 32
 
+
 class Tower
 {    
 public:
      //constructor
     Tower (int in_range,int in_damage, int in_level, int in_price, int in_reloadtime, int in_sprite_nr);
     //Tower(range, damage, level, price, reloadtime, spritenumber) 
-    Tower();
      //destructor
      ~Tower(){};
 
@@ -36,8 +36,9 @@ public:
     int price; //set the price of the tower
     int reloadtime; // how long between attacks
     int sprite_nr; //defines subrect sprite
-    sf::Image spritesheet;
+   
     sf::Sprite sprite; // sprite
+    sf::Image spritesheet;
     sf::Clock reload_clock; // use to count seconds between attacks
     //to set subrect Class_name.sprite.SetSubRect(sprite_select(sprite_nr))
     
@@ -58,17 +59,14 @@ Tower::Tower (int in_range,int in_damage, int in_level, int in_price, int in_rel
     this->price = in_price;
     this->reloadtime = in_reloadtime;
     this->sprite_nr = in_sprite_nr; 
+    
     this->spritesheet.LoadFromFile("SpriteSheet.png");
-    
     this->spritesheet.SetSmooth(false);
-    
     this->spritesheet.CreateMaskFromColor(sf::Color(255,0,255));
-    
-    this->sprite.SetImage(this->spritesheet);
+    this->sprite.SetImage(spritesheet);
     this->sprite.SetSubRect(sprite_select(this->sprite_nr));
 }
 
-Tower::Tower(){}
 
 //controll of target is in range
 bool Tower::target_in_range(Enemy *target)

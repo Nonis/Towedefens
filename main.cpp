@@ -25,11 +25,15 @@ int main()
     int animation = 0;
     // Create main window
     sf::RenderWindow App(sf::VideoMode(640, 480), "Towerdefence");
-    
     //Test create a tower and draw it on screen
         
-        // Tower(range,damage,level,price,reloadtime,sprite_nr)
-       Tower towertest1(4, 10, 1, 100, 1, 1);
+    // Tower(range,damage,level,price,reloadtime,sprite_nr)
+    Tower towertest1(4, 10, 1, 100, 1, 14);
+    //Enemy(speed, hp, reward, sprite_nr)
+    Enemy enemytest1(5,100,1000,11);
+    
+    enemytest1.sprite.SetPosition(32,0);
+
 
     
     // Start game loop
@@ -48,6 +52,8 @@ int main()
         App.Clear(sf::Color(255,255,255));
         // Draw apredefined shape
         App.Draw(towertest1.sprite);
+        App.Draw(enemytest1.sprite);
+
         // Finally, display the rendered frame on screen
         App.Display();
     }
